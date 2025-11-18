@@ -27,5 +27,15 @@ export const globalStyles = StyleSheet.create({
         shadowOpacity: 0.05,
         shadowRadius: 4,
         elevation: 1
+    }, buscador: {
+        height:44,
+        paddingHorizontal:12,
+        backgroundColor:"#fefefe",
+        borderWidth:2,
+        borderColor:"#344055",
+        borderRadius:12,
+        fontSize:16,
+        color: "#344055",
+        marginBottom:16
     }
 })
