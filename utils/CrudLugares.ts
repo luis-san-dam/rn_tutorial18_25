@@ -35,7 +35,7 @@ export async function modificarLugar(idLugarModificado:string,datos:DatosFormula
         descripcion:datos.descripcion,
     }
     const url = `http://${IP}:3000/lugares/${lugar.id}`
-    await axios.post(url, lugar)
+    await axios.put(url, lugar)
     return lugar
 }
 

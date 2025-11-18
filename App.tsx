@@ -39,10 +39,6 @@ export default function App() {
     setModalEditarVisible(false)
   }
 
-  function accionCerrarNuevoLugar(){
-    
-  }
-
   function accionCrearNuevoLugar(datos:DatosFormulario){
     crearNuevoLugar(datos)
       .then( nuevoLugar => {
